@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <title>BLADE RECORDS</title>
+  <meta name="description" content="Blade Records - Cutting edge sound. Home of SOULYOUMADETHIS, TWXN, and 507KAZ." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="main-nav">
+    <a href="#" class="nav-logo">
+      <span class="nav-logo-blade">BLADE</span>
+      <span class="nav-logo-rec">REC</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#roster" class="nav-link">Roster</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <button class="nav-burger" id="nav-burger" type="button" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#roster">Roster</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="mailto:contact@bladerecords.online" class="mobile-menu-email">contact@bladerecords.online</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <!-- Grid background -->
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <!-- Mouse spotlight -->
+    <div class="hero-spotlight" id="hero-spotlight" aria-hidden="true"></div>
+
+    <!-- Scan line -->
+    <div class="hero-scanline" aria-hidden="true">
+      <div class="hero-scanline-bar"></div>
+    </div>
+
+    <!-- Top status bar -->
+    <div class="hero-status load-trigger">
+      <span><span class="status-dot"></span>SYSTEM_ACTIVE</span>
+      <span class="status-middle">BLADE RECORDS // EST. 2025</span>
+      <span>STATUS: <span class="status-online">ONLINE</span></span>
+    </div>
+
+    <!-- Title -->
+    <div class="hero-title-wrap">
+      <div class="hero-title-container">
+        <h1 class="hero-title load-trigger">BLADE</h1>
+        <div class="hero-title-glitch red" aria-hidden="true">BLADE</div>
+        <div class="hero-title-glitch cyan" aria-hidden="true">BLADE</div>
+      </div>
+
+      <h2 class="hero-subtitle load-trigger">RECORDS</h2>
+
+      <div class="hero-line load-trigger"></div>
+
+      <p class="hero-tagline load-trigger">Cutting Edge Sound</p>
+    </div>
+
+    <!-- Corner decorations -->
+    <div class="hero-corner tl load-trigger" aria-hidden="true"></div>
+    <div class="hero-corner tr load-trigger" aria-hidden="true"></div>
+    <div class="hero-corner bl load-trigger" aria-hidden="true"></div>
+    <div class="hero-corner br load-trigger" aria-hidden="true"></div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll load-trigger">
+      <span>SCROLL</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE 1 ===== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span class="marquee-item">BLADE RECORDS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">SOULYOUMADETHIS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">TWXN</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">507KAZ</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">CUTTING EDGE SOUND</span>
+      <span class="marquee-item sep">//</span>
+      <!-- duplicate for seamless loop -->
+      <span class="marquee-item">BLADE RECORDS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">SOULYOUMADETHIS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">TWXN</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">507KAZ</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">CUTTING EDGE SOUND</span>
+      <span class="marquee-item sep">//</span>
+      <!-- third set for extra wide screens -->
+      <span class="marquee-item">BLADE RECORDS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">SOULYOUMADETHIS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">TWXN</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">507KAZ</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">CUTTING EDGE SOUND</span>
+      <span class="marquee-item sep">//</span>
+    </div>
+  </div>
+
+  <!-- ===== ROSTER ===== -->
+  <section class="roster" id="roster" data-observe>
+    <div class="roster-header">
+      <div class="roster-label-row">
+        <div class="roster-label-line" data-reveal data-reveal-delay="0"></div>
+        <span class="roster-label-text" data-reveal data-reveal-delay="100">THE ROSTER</span>
+      </div>
+      <h2 class="roster-title" data-reveal data-reveal-delay="200">ARTISTS</h2>
+    </div>
+
+    <div class="roster-list">
+      <!-- Artist 1 -->
+      <div class="artist-row" data-artist-delay="0">
+        <div class="artist-row-sweep"></div>
+        <div class="artist-row-inner">
+          <div class="artist-left">
+            <span class="artist-index">001</span>
+            <div class="artist-name-wrap">
+              <h3 class="artist-name">SOULYOUMADETHIS</h3>
+              <div class="artist-name-underline"></div>
+            </div>
+          </div>
+          <div class="artist-right">
+            <span class="artist-role">PRODUCER / ARTIST</span>
+            <div class="artist-arrow">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artist 2 -->
+      <div class="artist-row" data-artist-delay="200">
+        <div class="artist-row-sweep"></div>
+        <div class="artist-row-inner">
+          <div class="artist-left">
+            <span class="artist-index">002</span>
+            <div class="artist-name-wrap">
+              <h3 class="artist-name">TWXN</h3>
+              <div class="artist-name-underline"></div>
+            </div>
+          </div>
+          <div class="artist-right">
+            <span class="artist-role">ARTIST</span>
+            <div class="artist-arrow">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artist 3 -->
+      <div class="artist-row" data-artist-delay="400">
+        <div class="artist-row-sweep"></div>
+        <div class="artist-row-inner">
+          <div class="artist-left">
+            <span class="artist-index">003</span>
+            <div class="artist-name-wrap">
+              <h3 class="artist-name">507KAZ</h3>
+              <div class="artist-name-underline"></div>
+            </div>
+          </div>
+          <div class="artist-right">
+            <span class="artist-role">ARTIST</span>
+            <div class="artist-arrow">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE 2 ===== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span class="marquee-item">BLADE RECORDS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">SOULYOUMADETHIS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">TWXN</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">507KAZ</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">CUTTING EDGE SOUND</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">BLADE RECORDS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">SOULYOUMADETHIS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">TWXN</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">507KAZ</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">CUTTING EDGE SOUND</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">BLADE RECORDS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">SOULYOUMADETHIS</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">TWXN</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">507KAZ</span>
+      <span class="marquee-item sep">//</span>
+      <span class="marquee-item">CUTTING EDGE SOUND</span>
+      <span class="marquee-item sep">//</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about" data-observe>
+    <div class="about-bg-text" aria-hidden="true">
+      <span>BLADE</span>
+    </div>
+
+    <div class="about-inner">
+      <!-- Left column -->
+      <div>
+        <div class="about-label-row">
+          <div class="about-label-line" data-reveal data-reveal-delay="0"></div>
+          <span class="about-label-text" data-reveal data-reveal-delay="100">ABOUT</span>
+        </div>
+
+        <h2 class="about-heading" data-reveal data-reveal-delay="200">
+          WE DON'T<br/>
+          FOLLOW<br/>
+          <span class="accent">THE SOUND.</span>
+        </h2>
+      </div>
+
+      <!-- Right column -->
+      <div class="about-right">
+        <p class="about-desc" data-reveal data-reveal-delay="300">
+          Blade Records is a collective of artists pushing the boundaries of
+          modern sound. We exist at the intersection of raw creativity and
+          razor-sharp precision.
+        </p>
+
+        <div class="about-stats" data-reveal data-reveal-delay="500">
+          <div class="about-stat">
+            <div class="about-stat-value">03</div>
+            <div class="about-stat-label">ARTISTS</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-value">--</div>
+            <div class="about-stat-label">RELEASES</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-value">2025</div>
+            <div class="about-stat-label">EST.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact" data-observe>
+    <!-- Decorative cross -->
+    <div class="contact-cross" aria-hidden="true">
+      <svg width="400" height="400" viewBox="0 0 400 400">
+        <line x1="200" y1="0" x2="200" y2="400" stroke="currentColor" stroke-width="0.5" style="color: var(--accent)"/>
+        <line x1="0" y1="200" x2="400" y2="200" stroke="currentColor" stroke-width="0.5" style="color: var(--accent)"/>
+        <circle cx="200" cy="200" r="150" fill="none" stroke="currentColor" stroke-width="0.5" style="color: var(--accent)"/>
+        <circle cx="200" cy="200" r="100" fill="none" stroke="currentColor" stroke-width="0.5" style="color: var(--accent)"/>
+      </svg>
+    </div>
+
+    <div class="contact-inner">
+      <div class="contact-label-row" data-reveal data-reveal-delay="0">
+        <div class="contact-label-line" data-reveal data-reveal-delay="0"></div>
+        <span class="contact-label-text">GET IN TOUCH</span>
+        <div class="contact-label-line" data-reveal data-reveal-delay="0"></div>
+      </div>
+
+      <h2 class="contact-heading" data-reveal data-reveal-delay="200">
+        MAKE YOUR<br/>
+        <span class="accent">MOVE.</span>
+      </h2>
+
+      <div class="contact-email-wrap" data-reveal data-reveal-delay="400">
+        <a href="mailto:contact@bladerecords.online" class="contact-email">
+          contact@bladerecords.online
+        </a>
+        <div class="contact-email-underline"></div>
+      </div>
+
+      <br/>
+
+      <div class="contact-box" data-reveal data-reveal-delay="600">
+        <span>Demos // Collabs // Inquiries</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-logo-wrap">
+      <span class="footer-logo-text">BLADE RECORDS</span>
+    </div>
+
+    <div class="footer-bar">
+      <div class="footer-left">
+        <span class="footer-text">BLADE RECORDS</span>
+        <span class="footer-sep">//</span>
+        <span class="footer-rights">ALL RIGHTS RESERVED</span>
+      </div>
+
+      <div class="footer-right">
+        <span class="footer-time" id="footer-clock">00:00:00</span>
+        <span class="footer-live">
+          <span class="footer-live-dot"></span>
+          LIVE
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
